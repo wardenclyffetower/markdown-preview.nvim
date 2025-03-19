@@ -1,4 +1,7 @@
-html,body,#__next,main {
+html,
+body,
+#__next,
+main {
   min-height: 100vh;
   margin: 0;
 }
@@ -40,7 +43,7 @@ main {
 
 #page-ctn {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1900px;
   color: var(--foreground-color);
 }
 
@@ -55,7 +58,9 @@ main {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   line-height: 24px;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family:
+    "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #page-header svg {
