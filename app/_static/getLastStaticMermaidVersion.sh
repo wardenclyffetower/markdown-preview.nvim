@@ -1,3 +1,2 @@
 #!/bin/bash
-VERSION="11.4.1"
-/usr/bin/curl https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js -o ./mermaid.min.js
+/usr/bin/curl https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.min.js -o ./mermaid.min.js
